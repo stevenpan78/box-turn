@@ -1,0 +1,67 @@
+.square{
+	color: #ae372d;
+	position:fixed;
+	top:30%;
+	left:10%;
+	animation: shaker 5s infinite;
+	animation-timing-function: ease-in-out;
+	background: rgb(123,223,110);
+	width: 8em;
+	height:8em;
+	transition: ease;
+}
+#sq2{
+	color:#ffee23;
+	width:7em;
+	height:7em;
+	background:#1132ff;
+	animation-delay:2s;
+	animation: shaker 4s infinite;
+	left: 30%;
+}
+#sq3{
+	width:6em;
+	height:6em;
+	background:#fd1155;
+	animation-delay: 4s;
+	animation: shaker 3s infinite;
+	left: 50%;
+}
+.cen{
+	margin: 0 auto;
+	width: 16px;
+	font-size: 32px;
+	padding-top: 25%;
+	font-weight:bold;
+}
+#sq4{
+	color:#1132ff;
+	width:5em;
+	height:5em;
+	background:#ffee23;
+	animation-delay:6s;
+	animation: shaker 2s infinite;
+	left: 67%;
+}
+#sq5{
+	color:rgb(123,223,110);
+	width:4em;
+	height:4em;
+	background:#ae372d;
+	animation-delay:8s;
+	animation: shaker 1s infinite;
+	left:82%;
+}
+@keyframes shaker{
+	0% {transform:rotate(0deg);}
+	10% {transform:rotate(20deg) scale(1.5,1.5);}
+	20% {transform:rotate(-20deg) scale(1.5,1.5);}
+	30% {transform:rotate(20deg) scale(1.5,1.5);}
+	40% {transform:rotate(-20deg) scale(1.5,1.5);}
+	50% {transform:rotate(20deg) scale(1.5,1.5);}
+	60% {transform:rotate(-20deg) scale(1.5,1.5);}
+	70% {transform:rotate(20deg) scale(1.5,1.5);}
+	80% {transform:rotate(-20deg) scale(1.5,1.5);}
+	90% {transform:rotate(20deg) scale(1.5,1.5);}
+	100%{transform:rotate(0deg);}
+}
